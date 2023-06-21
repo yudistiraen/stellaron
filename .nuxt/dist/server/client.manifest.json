@@ -1,0 +1,15 @@
+{
+  "@vite/client": {
+    "isEntry": true,
+    "file": "@vite/client",
+    "css": [],
+    "module": true,
+    "resourceType": "script"
+  },
+  "/Users/yudistira.nugraha/workspace/stellaron/node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "isEntry": true,
+    "file": "/Users/yudistira.nugraha/workspace/stellaron/node_modules/nuxt/dist/app/entry.js"
+  }
+}
