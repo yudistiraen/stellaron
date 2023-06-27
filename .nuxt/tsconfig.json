@@ -9,73 +9,73 @@
     "skipLibCheck": true,
     "strict": true,
     "allowJs": true,
+    "baseUrl": "C:/Users/Yudis/Documents/Workspace/stellaron",
     "noEmit": true,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "types": [
       "node"
     ],
-    "baseUrl": "..",
     "paths": {
       "~": [
-        "."
+        "C:/Users/Yudis/Documents/Workspace/stellaron"
       ],
       "~/*": [
-        "./*"
+        "C:/Users/Yudis/Documents/Workspace/stellaron/*"
       ],
       "@": [
-        "."
+        "C:/Users/Yudis/Documents/Workspace/stellaron"
       ],
       "@/*": [
-        "./*"
+        "C:/Users/Yudis/Documents/Workspace/stellaron/*"
       ],
       "~~": [
-        "."
+        "C:/Users/Yudis/Documents/Workspace/stellaron"
       ],
       "~~/*": [
-        "./*"
+        "C:/Users/Yudis/Documents/Workspace/stellaron/*"
       ],
       "@@": [
-        "."
+        "C:/Users/Yudis/Documents/Workspace/stellaron"
       ],
       "@@/*": [
-        "./*"
+        "C:/Users/Yudis/Documents/Workspace/stellaron/*"
       ],
       "assets": [
-        "assets"
+        "C:/Users/Yudis/Documents/Workspace/stellaron/assets"
       ],
       "assets/*": [
-        "assets/*"
+        "C:/Users/Yudis/Documents/Workspace/stellaron/assets/*"
       ],
       "public": [
-        "public"
+        "C:/Users/Yudis/Documents/Workspace/stellaron/public"
       ],
       "public/*": [
-        "public/*"
+        "C:/Users/Yudis/Documents/Workspace/stellaron/public/*"
       ],
       "#app": [
-        "node_modules/nuxt/dist/app"
+        "C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/nuxt/dist/app"
       ],
       "#app/*": [
-        "node_modules/nuxt/dist/app/*"
+        "C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/nuxt/dist/app/*"
       ],
       "vue-demi": [
-        "node_modules/nuxt/dist/app/compat/vue-demi"
+        "C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/nuxt/dist/app/compat/vue-demi"
       ],
       "#vue-router": [
-        ".nuxt/vue-router"
+        "C:/Users/Yudis/Documents/Workspace/stellaron/.nuxt/vue-router"
       ],
       "#imports": [
-        ".nuxt/imports"
+        "C:/Users/Yudis/Documents/Workspace/stellaron/.nuxt/imports"
       ],
       "#build": [
-        ".nuxt"
+        "C:/Users/Yudis/Documents/Workspace/stellaron/.nuxt"
       ],
       "#build/*": [
-        ".nuxt/*"
+        "C:/Users/Yudis/Documents/Workspace/stellaron/.nuxt/*"
       ],
       "#components": [
-        ".nuxt/components"
+        "C:/Users/Yudis/Documents/Workspace/stellaron/.nuxt/components"
       ]
     }
   },

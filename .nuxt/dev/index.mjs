@@ -1,25 +1,25 @@
-globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file:///Users/yudistira.nugraha/workspace/stellaron/node_modules/node-fetch-native/dist/polyfill.mjs';
+globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file://C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/node-fetch-native/dist/polyfill.mjs';
 import { Server } from 'node:http';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { mkdirSync } from 'node:fs';
 import { parentPort, threadId } from 'node:worker_threads';
-import { defineEventHandler, handleCacheHeaders, createEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, getRequestHeader, setResponseHeader, getRequestHeaders, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler, getQuery as getQuery$1, createError } from 'file:///Users/yudistira.nugraha/workspace/stellaron/node_modules/h3/dist/index.mjs';
-import { createRenderer } from 'file:///Users/yudistira.nugraha/workspace/stellaron/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { stringify, uneval } from 'file:///Users/yudistira.nugraha/workspace/stellaron/node_modules/devalue/index.js';
-import { renderToString } from 'file:///Users/yudistira.nugraha/workspace/stellaron/node_modules/vue/server-renderer/index.mjs';
-import { createFetch as createFetch$1, Headers } from 'file:///Users/yudistira.nugraha/workspace/stellaron/node_modules/ofetch/dist/node.mjs';
-import destr from 'file:///Users/yudistira.nugraha/workspace/stellaron/node_modules/destr/dist/index.mjs';
-import { createCall, createFetch } from 'file:///Users/yudistira.nugraha/workspace/stellaron/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file:///Users/yudistira.nugraha/workspace/stellaron/node_modules/hookable/dist/index.mjs';
-import { snakeCase } from 'file:///Users/yudistira.nugraha/workspace/stellaron/node_modules/scule/dist/index.mjs';
-import { klona } from 'file:///Users/yudistira.nugraha/workspace/stellaron/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file:///Users/yudistira.nugraha/workspace/stellaron/node_modules/defu/dist/defu.mjs';
-import { hash } from 'file:///Users/yudistira.nugraha/workspace/stellaron/node_modules/ohash/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery } from 'file:///Users/yudistira.nugraha/workspace/stellaron/node_modules/ufo/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///Users/yudistira.nugraha/workspace/stellaron/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///Users/yudistira.nugraha/workspace/stellaron/node_modules/unstorage/drivers/fs.mjs';
-import { toRouteMatcher, createRouter } from 'file:///Users/yudistira.nugraha/workspace/stellaron/node_modules/radix3/dist/index.mjs';
+import { defineEventHandler, handleCacheHeaders, createEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, getRequestHeader, setResponseHeader, getRequestHeaders, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler, getQuery as getQuery$1, createError } from 'file://C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/h3/dist/index.mjs';
+import { createRenderer } from 'file://C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { stringify, uneval } from 'file://C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/devalue/index.js';
+import { renderToString } from 'file://C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/vue/server-renderer/index.mjs';
+import { createFetch as createFetch$1, Headers } from 'file://C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/ofetch/dist/node.mjs';
+import destr from 'file://C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/destr/dist/index.mjs';
+import { createCall, createFetch } from 'file://C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file://C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/hookable/dist/index.mjs';
+import { snakeCase } from 'file://C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/scule/dist/index.mjs';
+import { klona } from 'file://C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/klona/dist/index.mjs';
+import defu, { defuFn } from 'file://C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/defu/dist/defu.mjs';
+import { hash } from 'file://C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/ohash/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery } from 'file://C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/ufo/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file://C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file://C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/unstorage/drivers/fs.mjs';
+import { toRouteMatcher, createRouter } from 'file://C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/radix3/dist/index.mjs';
 
 const providers = [
   ["APPVEYOR"],
@@ -196,7 +196,7 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
-const serverAssets = [{"baseName":"server","dir":"/Users/yudistira.nugraha/workspace/stellaron/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"C:/Users/Yudis/Documents/Workspace/stellaron/server/assets"}];
 
 const assets = createStorage();
 
@@ -208,10 +208,10 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets);
 
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/yudistira.nugraha/workspace/stellaron","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/yudistira.nugraha/workspace/stellaron/server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/yudistira.nugraha/workspace/stellaron/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/yudistira.nugraha/workspace/stellaron/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:\\Users\\Yudis\\Documents\\Workspace\\stellaron","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:\\Users\\Yudis\\Documents\\Workspace\\stellaron\\server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:\\Users\\Yudis\\Documents\\Workspace\\stellaron\\.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:\\Users\\Yudis\\Documents\\Workspace\\stellaron\\.nuxt\\cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -330,6 +330,10 @@ function defineCachedEventHandler(handler, opts = defaultCacheOptions) {
       let _resSendBody;
       const resProxy = cloneWithProxy(incomingEvent.node.res, {
         statusCode: 200,
+        writableEnded: false,
+        writableFinished: false,
+        headersSent: false,
+        closed: false,
         getHeader(name) {
           return resHeaders[name];
         },
@@ -516,15 +520,17 @@ const plugins = [
 function defineRenderHandler(handler) {
   return eventHandler(async (event) => {
     if (event.node.req.url.endsWith("/favicon.ico")) {
-      event.node.res.setHeader("Content-Type", "image/x-icon");
-      event.node.res.end(
-        "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-      );
+      if (!event.handled) {
+        event.node.res.setHeader("Content-Type", "image/x-icon");
+        event.node.res.end(
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        );
+      }
       return;
     }
     const response = await handler(event);
     if (!response) {
-      if (!event.node.res.writableEnded) {
+      if (!event.handled) {
         event.node.res.statusCode = event.node.res.statusCode === 200 ? 500 : event.node.res.statusCode;
         event.node.res.end(
           "No response returned from render handler: " + event.node.req.url
@@ -570,6 +576,18 @@ function normalizeError(error) {
     message
   };
 }
+function trapUnhandledNodeErrors() {
+  {
+    process.on(
+      "unhandledRejection",
+      (err) => console.error("[nitro] [unhandledRejection]", err)
+    );
+    process.on(
+      "uncaughtException",
+      (err) => console.error("[nitro] [uncaughtException]", err)
+    );
+  }
+}
 
 const errorHandler = (async function errorhandler(error, event) {
   const { stack, statusCode, statusMessage, message } = normalizeError(error);
@@ -581,7 +599,6 @@ const errorHandler = (async function errorhandler(error, event) {
     stack: statusCode !== 404 ? `<pre>${stack.map((i) => `<span class="stack${i.internal ? " internal" : ""}">${i.text}</span>`).join("\n")}</pre>` : "",
     data: error.data
   };
-  setResponseStatus(event, errorObject.statusCode !== 200 && errorObject.statusCode || 500, errorObject.statusMessage);
   if (error.unhandled || error.fatal) {
     const tags = [
       "[nuxt]",
@@ -592,6 +609,10 @@ const errorHandler = (async function errorhandler(error, event) {
     ].filter(Boolean).join(" ");
     console.error(tags, errorObject.message + "\n" + stack.map((l) => "  " + l.text).join("  \n"));
   }
+  if (event.handled) {
+    return;
+  }
+  setResponseStatus(event, errorObject.statusCode !== 200 && errorObject.statusCode || 500, errorObject.statusMessage);
   if (isJsonRequest(event)) {
     setResponseHeader(event, "Content-Type", "application/json");
     event.node.res.end(JSON.stringify(errorObject));
@@ -607,22 +628,29 @@ const errorHandler = (async function errorhandler(error, event) {
     {
       errorObject.description = errorObject.message;
     }
+    if (event.handled) {
+      return;
+    }
     setResponseHeader(event, "Content-Type", "text/html;charset=UTF-8");
     event.node.res.end(template(errorObject));
+    return;
+  }
+  const html = await res.text();
+  if (event.handled) {
     return;
   }
   for (const [header, value] of res.headers.entries()) {
     setResponseHeader(event, header, value);
   }
   setResponseStatus(event, res.status && res.status !== 200 ? res.status : void 0, res.statusText);
-  event.node.res.end(await res.text());
+  event.node.res.end(html);
 });
 
-const _lazy_skSd5A = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_QU7ek2 = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/__nuxt_error', handler: _lazy_skSd5A, lazy: true, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_skSd5A, lazy: true, middleware: false, method: undefined }
+  { route: '/__nuxt_error', handler: _lazy_QU7ek2, lazy: true, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_QU7ek2, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
@@ -674,7 +702,7 @@ function createNitroApp() {
       router.use(h.route, handler, h.method);
     }
   }
-  h3App.use(config.app.baseURL, router);
+  h3App.use(config.app.baseURL, router.handler);
   const app = {
     hooks,
     h3App,
@@ -712,16 +740,16 @@ server.listen(listenAddress, () => {
     address: typeof _address === "string" ? { socketPath: _address } : { host: "localhost", port: _address.port }
   });
 });
-{
-  process.on(
-    "unhandledRejection",
-    (err) => console.error("[nitro] [dev] [unhandledRejection]", err)
-  );
-  process.on(
-    "uncaughtException",
-    (err) => console.error("[nitro] [dev] [uncaughtException]", err)
-  );
+trapUnhandledNodeErrors();
+async function onShutdown(signal) {
+  await nitroApp.hooks.callHook("close");
 }
+parentPort.on("message", async (msg) => {
+  if (msg && msg.event === "shutdown") {
+    await onShutdown();
+    parentPort.postMessage({ event: "exit" });
+  }
+});
 
 const _messages = {"appName":"Nuxt","version":"","statusCode":500,"statusMessage":"Server error","description":"An error occurred in the application and the page could not be served. If you are the application owner, check your server logs for details.","stack":""};
 const _render = function({ messages }) {
@@ -742,19 +770,22 @@ __p += '<!DOCTYPE html><html><head><title>' +
 return __p
 };
 const _template = (messages) => _render({ messages: { ..._messages, ...messages } });
-const template = _template;
+const template$1 = _template;
 
 const errorDev = /*#__PURE__*/Object.freeze({
   __proto__: null,
-  template: template
+  template: template$1
 });
 
 const appRootId = "__nuxt";
 
 const appRootTag = "div";
 
+function buildAssetsDir() {
+  return useRuntimeConfig().app.buildAssetsDir;
+}
 function buildAssetsURL(...path) {
-  return joinURL(publicAssetsURL(), useRuntimeConfig().app.buildAssetsDir, ...path);
+  return joinURL(publicAssetsURL(), buildAssetsDir(), ...path);
 }
 function publicAssetsURL(...path) {
   const publicBase = useRuntimeConfig().app.cdnURL || useRuntimeConfig().app.baseURL;
@@ -763,9 +794,9 @@ function publicAssetsURL(...path) {
 
 globalThis.__buildAssetsURL = buildAssetsURL;
 globalThis.__publicAssetsURL = publicAssetsURL;
-const getClientManifest = () => import('/Users/yudistira.nugraha/workspace/stellaron/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getClientManifest = () => import('file://C:/Users/Yudis/Documents/Workspace/stellaron/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
 const getStaticRenderedHead = () => Promise.resolve().then(function () { return _virtual__headStatic$1; }).then((r) => r.default || r);
-const getServerEntry = () => import('/Users/yudistira.nugraha/workspace/stellaron/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
+const getServerEntry = () => import('file://C:/Users/Yudis/Documents/Workspace/stellaron/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
 const getSSRStyles = lazyCachedFunction(() => Promise.resolve().then(function () { return styles$1; }).then((r) => r.default || r));
 const getSSRRenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
@@ -793,9 +824,10 @@ const getSSRRenderer = lazyCachedFunction(async () => {
 });
 const getSPARenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
+  const spaTemplate = await Promise.resolve().then(function () { return _virtual__spaTemplate; }).then((r) => r.template).catch(() => "");
   const options = {
     manifest,
-    renderToString: () => `<${appRootTag} id="${appRootId}"></${appRootTag}>`,
+    renderToString: () => `<${appRootTag} id="${appRootId}">${spaTemplate}</${appRootTag}>`,
     buildAssetsURL
   };
   const renderer = createRenderer(() => () => {
@@ -804,6 +836,7 @@ const getSPARenderer = lazyCachedFunction(async () => {
   const renderToString = (ssrContext) => {
     const config = useRuntimeConfig();
     ssrContext.payload = {
+      path: ssrContext.url,
       _errors: {},
       serverRendered: false,
       data: {},
@@ -856,16 +889,16 @@ const renderer = defineRenderHandler(async (event) => {
   };
   const renderer = ssrContext.noSSR ? await getSPARenderer() : await getSSRRenderer();
   const _rendered = await renderer.renderToString(ssrContext).catch(async (error) => {
+    if (ssrContext._renderResponse && error.message === "skipping render") {
+      return {};
+    }
     const _err = !ssrError && ssrContext.payload?.error || error;
     await ssrContext.nuxt?.hooks.callHook("app:error", _err);
     throw _err;
   });
-  await ssrContext.nuxt?.hooks.callHook("app:rendered", { ssrContext });
+  await ssrContext.nuxt?.hooks.callHook("app:rendered", { ssrContext, renderResult: _rendered });
   if (ssrContext._renderResponse) {
     return ssrContext._renderResponse;
-  }
-  if (event.node.res.headersSent || event.node.res.writableEnded) {
-    return;
   }
   if (ssrContext.payload?.error && !ssrError) {
     throw ssrContext.payload.error;
@@ -999,5 +1032,12 @@ const styles = {};
 const styles$1 = /*#__PURE__*/Object.freeze({
   __proto__: null,
   default: styles
+});
+
+const template = "<svg class=\"nuxt-spa-loading\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 37 25\" fill=\"none\" width=\"80\"><path d=\"M24.236 22.006h10.742L25.563 5.822l-8.979 14.31a4 4 0 0 1-3.388 1.874H2.978l11.631-20 5.897 10.567\"></path></svg><style>.nuxt-spa-loading{position:fixed;top:50%;left:50%;transform:translate(-50%, -50%)}.nuxt-spa-loading>path{fill:none;stroke:#00DC82;stroke-width:4px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:128;stroke-dashoffset:128;animation:nuxt-spa-loading-move 3s linear infinite}@keyframes nuxt-spa-loading-move{100%{stroke-dashoffset:-128}}</style>";
+
+const _virtual__spaTemplate = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  template: template
 });
 //# sourceMappingURL=index.mjs.map

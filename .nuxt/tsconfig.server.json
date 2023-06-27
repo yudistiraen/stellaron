@@ -7,9 +7,56 @@
     "moduleResolution": "Node",
     "allowJs": true,
     "resolveJsonModule": true,
-    "paths": {}
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "C:/Users/Yudis/Documents/Workspace/stellaron/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "C:/Users/Yudis/Documents/Workspace/stellaron"
+      ],
+      "~/*": [
+        "C:/Users/Yudis/Documents/Workspace/stellaron/*"
+      ],
+      "@": [
+        "C:/Users/Yudis/Documents/Workspace/stellaron"
+      ],
+      "@/*": [
+        "C:/Users/Yudis/Documents/Workspace/stellaron/*"
+      ],
+      "~~": [
+        "C:/Users/Yudis/Documents/Workspace/stellaron"
+      ],
+      "~~/*": [
+        "C:/Users/Yudis/Documents/Workspace/stellaron/*"
+      ],
+      "@@": [
+        "C:/Users/Yudis/Documents/Workspace/stellaron"
+      ],
+      "@@/*": [
+        "C:/Users/Yudis/Documents/Workspace/stellaron/*"
+      ],
+      "assets": [
+        "C:/Users/Yudis/Documents/Workspace/stellaron/assets"
+      ],
+      "assets/*": [
+        "C:/Users/Yudis/Documents/Workspace/stellaron/assets/*"
+      ],
+      "public": [
+        "C:/Users/Yudis/Documents/Workspace/stellaron/public"
+      ],
+      "public/*": [
+        "C:/Users/Yudis/Documents/Workspace/stellaron/public/*"
+      ]
+    }
   },
   "include": [
+    "C:/Users/Yudis/Documents/Workspace/stellaron/.nuxt/types/nitro-nuxt.d.ts",
     "./types/nitro.d.ts",
     "../**/*",
     "../server/**/*"

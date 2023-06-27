@@ -1,1 +1,1 @@
-export { default } from "file:///Users/yudistira.nugraha/workspace/stellaron/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export { default } from "file:///C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

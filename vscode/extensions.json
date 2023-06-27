@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+      "vue.vscode-typescript-vue-plugin",
+      "vue.volar",
+      "jaspernorth.vscode-pigments",
+      "bradlc.vscode-tailwindcss",
+      "dbaeumer.vscode-eslint"
+    ]
+  }

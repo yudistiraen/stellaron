@@ -1,4 +1,5 @@
 {
+    "root": true,
     "env": {
         "browser": true,
         "es2021": true
@@ -7,14 +8,21 @@
         "standard-with-typescript",
         "plugin:vue/vue3-essential"
     ],
+    "parser": "vue-eslint-parser",
     "parserOptions": {
         "ecmaVersion": "latest",
+        "parser": "@typescript-eslint/parser",
         "sourceType": "module"
     },
     "plugins": [
-        "vue"
+        "vue",
+        "@typescript-eslint",
+        "simple-import-sort",
+        "import",
+        "check-file"
     ],
     "rules": {
+        //vue
         "vue/no-v-html": "off",
         "vue/multi-word-component-names": "off",
         "vue/no-multiple-template-root": "off",
@@ -34,6 +42,15 @@
                     "style[scoped]"
                 ]
             }
+        ],
+        "vue/html-self-closing": [
+          "error",
+          {
+            "html": {
+              "normal": "never",
+              "void": "any"
+            }
+          }
         ]
     }
 }

@@ -1,5 +1,5 @@
 
-import { defuFn } from '/Users/yudistira.nugraha/workspace/stellaron/node_modules/defu/dist/defu.mjs'
+import { defuFn } from 'C:/Users/Yudis/Documents/Workspace/stellaron/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {
   "app": {
