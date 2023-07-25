@@ -1,0 +1,10 @@
+node_modules
+.nuxt
+.nitro
+.cache
+.output
+dist
+.vscode/*
+tsconfig.json
+charting_library.esm.js
+meta/*.json

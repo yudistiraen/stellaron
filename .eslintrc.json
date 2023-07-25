@@ -2,11 +2,32 @@
     "root": true,
     "env": {
         "browser": true,
-        "es2021": true
+        "es2021": true,
+        "node": true
     },
     "extends": [
+        "@nuxtjs/eslint-config-typescript",
         "standard-with-typescript",
-        "plugin:vue/vue3-essential"
+        "plugin:vue/vue3-essential",
+        "plugin:nuxt/recomended",
+        "plugin:promise/recomended",
+        "plugin:prettier/recomended",
+        "plugin:tailwindcss/recomended",
+        "plugin:markdown/recomended"
+    ],
+    "overrides":[
+        {
+            "files":["*.vue"],
+            "globals": {
+                "defineEmits":"readonly",
+                "defineProps":"readonly",
+                "withDefaults":"readonly"
+            },
+            "parser":"vue-eslint-parser",
+            "parserOptions": {
+                "parser": "@typescript-eslint/parser"
+            }
+        }
     ],
     "parser": "vue-eslint-parser",
     "parserOptions": {
@@ -22,6 +43,13 @@
         "check-file"
     ],
     "rules": {
+        //Import/Export
+        "simple-import-sort/exports": "error",
+        "import/first": "error",
+        "import/newline-after-import":"error",
+        "import/no-duplicates":"error",
+        //tailwind
+        "tailwindcss/enforces-negative-arbitaary-values":["off"],
         //vue
         "vue/no-v-html": "off",
         "vue/multi-word-component-names": "off",
