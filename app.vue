@@ -8,6 +8,8 @@ definePageMeta({})
 <template>
   <Head/>
   <Body class="antialiased text-sm tracking-tight scroll-smooth">
-    <NuxtPage/>
+    <NuxtLayout>
+      <NuxtPage/>
+    </NuxtLayout>
   </Body>
 </template>

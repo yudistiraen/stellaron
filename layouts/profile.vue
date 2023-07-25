@@ -1,15 +1,10 @@
 <script setup lang="ts">
+import Header from '~/components/header.vue'
 </script>
 
 <template>
-    <div>
-        <header>
-            <div class="flex min-w-full">
-                <div>
-                    <h1>Logo</h1>
-                </div>
-            </div>
-        </header>
+    <div class="mt-5 mx-auto max-w-container px-5 finisher-header">
+        <Header/>
     </div>
     <slot></slot>
 </template>
