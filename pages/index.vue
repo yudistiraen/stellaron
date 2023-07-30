@@ -41,7 +41,7 @@ import Particles from '~/components/particles.vue'
   </div>
   <footer class="max-w-container py-2 px-5 text-center mt-5 mx-auto">
     <div class="text-xs">
-      &copy; Yudistira 2023
+      &copy; Yudistira 2023 v.1.0.0
     </div>
   </footer>
 </template>
