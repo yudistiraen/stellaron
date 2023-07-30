@@ -9,16 +9,12 @@ const navMenu = useState('navMenu', () => ([
     to: '#about'
   },
   {
-    name: 'Experience',
-    to: '#experience'
-  },
-  {
-    name: 'FAQ',
-    to: '#'
+    name: 'Skills',
+    to: '#skills'
   },
   {
     name: 'Contacts',
-    to: '#'
+    to: '#contacts'
   }
 ]))
 </script>
@@ -27,13 +23,10 @@ const navMenu = useState('navMenu', () => ([
   <header
   class="z-10 pt-5 px-5 xl:px-0 finisher-header sticky top-0 pb-2"
     :class="[
-      scrollY > 0 ? 'bg-red-500': 'bg-transparent'
+      scrollY > 0 ? 'backdrop-blur shadow-sm': 'bg-transparent'
     ]"
   >
       <div class="flex ">
-          <!-- <div class="shrink-0">
-              <h1 class="font-bold text-3xl">Stellaron</h1>
-          </div> -->
           <div class="gap-10 w-full mx-auto items-center justify-end hidden md:flex"
           >
               <div

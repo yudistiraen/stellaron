@@ -1,7 +1,9 @@
 import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 export default defineNuxtPlugin(() => {
- AOS.init({
-    
- })
+    console.log('plugin')
+    AOS.init({
+        
+    })
 })
