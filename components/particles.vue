@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { tsParticles } from 'tsparticles'
 
-const attrs = useAttrs()
+// const attrs = useAttrs()
 const particlesProp = withDefaults(
   defineProps<{
     id?: string

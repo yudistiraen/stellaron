@@ -7,13 +7,11 @@
     },
     "extends": [
         "@nuxtjs/eslint-config-typescript",
-        "standard-with-typescript",
-        "plugin:vue/vue3-essential",
-        "plugin:nuxt/recomended",
-        "plugin:promise/recomended",
-        "plugin:prettier/recomended",
-        "plugin:tailwindcss/recomended",
-        "plugin:markdown/recomended"
+        "plugin:nuxt/recommended",
+        "plugin:promise/recommended",
+        "plugin:prettier/recommended",
+        "plugin:tailwindcss/recommended",
+        "plugin:markdown/recommended"
     ],
     "overrides":[
         {
@@ -42,7 +40,14 @@
         "import",
         "check-file"
     ],
+    
     "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+              "endOfLine": "auto"
+            }
+        ],
         //Import/Export
         "simple-import-sort/exports": "error",
         "import/first": "error",
