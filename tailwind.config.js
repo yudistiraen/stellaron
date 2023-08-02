@@ -31,9 +31,9 @@ module.exports = {
         'ping-slow': 'focuse 1.5s linear infinite',
         jello: 'jello-horizontal 0.9s both',
         shine: 'shine 1s',
-        reveal: 'reveal 7s',
-        slidein: 'slidein 7s',
-        showup: 'showup 7s',
+        reveal: 'reveal 5s',
+        slidein: 'slidein 5s',
+        showup: 'showup 5s',
       },
       transitionDuration: {
         4000: '4000ms',
@@ -52,15 +52,15 @@ module.exports = {
         slidein: {
           '0%': { 'margin-left': '-800px' },
           '20%': { 'margin-left': '-800px' },
-          '35%': { 'margin-left': '0px' },
-          '100%': { 'margin-left': '0px' },
+          '35%': { 'margin-left': '0.5rem' },
+          '100%': { 'margin-left': '0.5rem' },
         },
         reveal: {
           '0%': { opacity: 0, width: '0px' },
           '20%': { opacity: 1, width: '0px' },
-          '30%': { width: '355px' },
+          '30%': { width: 'fit-content' },
           '80%': { opacity: 1 },
-          '100%': { width: '355px' },
+          '100%': { width: 'fit-content' },
         },
         focuse: {
           '0%': { transform: 'scale(0.8)', opacity: 1 },

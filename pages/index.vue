@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import Aboutme from '~/components/aboutme.vue'
 import Particles from '~/components/particles.vue'
-const appConfig = useAppConfig()
 
+const appConfig = useAppConfig()
 </script>
 
 <template>
@@ -15,16 +15,10 @@ const appConfig = useAppConfig()
       <div class="py-8 text-center">
         <div class="">
           <div class="relative text-3xl font-bold">
-            <div
-              class="inline-block animate-showup overflow-hidden whitespace-nowrap transition-all"
-            >
-              Hi!
-            </div>
-            <div
-              class="ml-3 inline-block animate-reveal overflow-hidden whitespace-nowrap transition-all"
-            >
-              <span class="animate-slidein transition-all">im Yudistira Eka Nugraha</span>
-            </div>
+            <span class="inline-block animate-showup overflow-hidden transition-all">Hi!</span>
+            <span class="ml-2 inline-block animate-reveal overflow-hidden transition-all">
+              <span class="animate-slidein transition-all">Im Yudistira Eka Nugraha</span>
+            </span>
           </div>
           <div class="flex justify-center gap-3">
             <div class="flex items-center rounded-full bg-orange-200 px-2 py-0.5 text-2xs">
