@@ -36,27 +36,27 @@ import WhatsappIcon from '~/statics/icons/whatsapp.vue'
 <template>
   <div id="hero" class="z-20 mx-auto max-w-container px-5 xl:px-0">
     <div class="relative grid grid-cols-2">
-      <div class="hidden md:block">
+      <div class="hidden md:block" data-aos="fade-right" data-aos-once="true">
         <img src="../statics/icons/software-quality.png" />
       </div>
       <div id="about" class="col-span-2 md:col-span-1">
         <div>
           <h2 class="text-xl font-bold">About Me:</h2>
           <div>
-            <p class="text-xs text-gray-500">
+            <p class="text-gray-500">
               Hello, im Front End web developer based on Indonesia, and have several years of
               experience working in the field of web development
             </p>
           </div>
         </div>
-        <div class="mt-10 flex flex-wrap gap-3">
+        <div class="mt-10 flex flex-wrap gap-3" data-aos="fade" data-aos-once="true">
           <div class="group">
             <div
               class="relative h-fit rounded-md bg-white p-5 shadow-md transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
             >
               <div class="absolute inset-0 top-5 [backface-visibility:hidden]">
                 <div class="text-center">
-                  <div class="text-xs font-semibold">PT. Solusi Untuk Negeri | Salatiga</div>
+                  <div class="font-semibold">PT. Solusi Untuk Negeri | Salatiga</div>
                   <div class="text-xs italic text-gray-400">
                     Junior Front End Developer, Jul 2018 - Jan 2019
                   </div>
@@ -148,6 +148,7 @@ import WhatsappIcon from '~/statics/icons/whatsapp.vue'
       <div
         class="group relative shrink-0 grow rounded-lg border px-2 pb-5 text-center backdrop-blur-sm hover:border-darken-main max-sm:w-full md:flex-1"
         data-aos="fade-up"
+        data-aos-once="true"
       >
         <div
           class="mx-auto -mt-8 flex h-12 w-12 rounded-full border bg-white group-hover:border-darken-main"
@@ -169,6 +170,7 @@ import WhatsappIcon from '~/statics/icons/whatsapp.vue'
         class="group relative shrink-0 grow rounded-lg border px-2 pb-5 text-center backdrop-blur-sm hover:border-darken-main max-sm:w-full md:flex-1"
         data-aos="fade-up"
         data-aos-delay="100"
+        data-aos-once="true"
       >
         <div
           class="mx-auto -mt-8 flex h-12 w-12 rounded-full border bg-white group-hover:border-darken-main"
@@ -189,6 +191,7 @@ import WhatsappIcon from '~/statics/icons/whatsapp.vue'
         class="group relative shrink-0 grow rounded-lg border px-2 pb-5 text-center backdrop-blur-sm hover:border-darken-main max-sm:w-full md:flex-1"
         data-aos="fade-up"
         data-aos-delay="200"
+        data-aos-once="true"
       >
         <div
           class="mx-auto -mt-8 flex h-12 w-12 rounded-full border bg-white group-hover:border-darken-main"
@@ -210,6 +213,7 @@ import WhatsappIcon from '~/statics/icons/whatsapp.vue'
         class="group relative shrink-0 grow rounded-lg border px-2 pb-5 text-center backdrop-blur-sm hover:border-darken-main max-sm:w-full md:flex-1"
         data-aos="fade-up"
         data-aos-delay="300"
+        data-aos-once="true"
       >
         <div
           class="mx-auto -mt-8 flex h-12 w-12 rounded-full border bg-white group-hover:border-darken-main"
