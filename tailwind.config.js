@@ -13,7 +13,7 @@ module.exports = {
   theme: {
     extend: {
       maxWidth: {
-        container: '65rem',
+        container: '75rem',
       },
       fontSize: {
         '2xs': '0.65rem',
