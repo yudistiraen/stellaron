@@ -1,4 +1,6 @@
 <script setup lang="ts">
+// import Download from '~/statics/icons/download.vue'
+
 const careers = useState<
   {
     year: string
@@ -12,75 +14,78 @@ const careers = useState<
   }[]
 >('careers', () => [
   {
-    year: 'Jul 2018 - Jan 2019',
+    year: '2018 - 2019',
     occupation: 'Junior Front End Developer',
     office: 'PT Solusi Untuk Negeri',
     location: 'Salatiga',
-    description: `lLorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, eos provident!
-          Eaque, explicabo. Voluptate quo corporis, nam commodi in laborum fugiat, aliquam velit
-          molestias natus, ad itaque dignissimos. Obcaecati, accusamus.`,
+    description: `As a fresh graduate, i starting my career on PT. Solusi Untuk Negeri as a Junior
+                  Front End Developer. In here, i learn how to work with other division like Back
+                  End and QA. We have main Project called "Kartu Pintar", that's developed for
+                  online students attendance check.`,
     primaryColor: 'bg-[#9251ac]',
     titleColor: 'text-[#9251ac]',
     textColor: 'text-[#f6a4ec]',
   },
   {
-    year: 'Feb 2019 - Feb 2021',
+    year: '2019 - 2021',
     occupation: 'Front End Developer',
     office: 'Berau Coal Energy',
     location: 'Jakarta',
-    description: `lLorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, eos provident!
-          Eaque, explicabo. Voluptate quo corporis, nam commodi in laborum fugiat, aliquam velit
-          molestias natus, ad itaque dignissimos. Obcaecati, accusamus.`,
+    description: `By the time flies, i want to try another challange and trying to apply in Jakarta.
+                  At this time, im working as Front End Developer at Berau Coal Energy for its
+                  Business Units. Im learning to work with a bigger team here like Back End, QA, Dev
+                  Ops, and staff opperations.`,
     primaryColor: 'bg-[#24b47e]',
     titleColor: 'text-[#24b47e]',
     textColor: 'text-[#aff1b6]',
   },
   {
-    year: 'Feb 2021 - present',
+    year: '2021 - present',
     occupation: 'Front End Developer',
     office: 'Indodax',
     location: 'Jakarta',
-    description: `lLorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, eos provident!
-          Eaque, explicabo. Voluptate quo corporis, nam commodi in laborum fugiat, aliquam velit
-          molestias natus, ad itaque dignissimos. Obcaecati, accusamus.`,
-    primaryColor: 'bg-[#555ac0]',
-    titleColor: 'text-[#555ac0]',
-    textColor: 'text-[#87bbfe]',
+    description: `I want to try another challange here, thats why i moved to Indodax. I want to know
+                  more amazing people and developing bigger app. At Indodax, the team is more
+                  complex, and im learning how to develop big app with amazing team.`,
+    primaryColor: 'bg-[#1597BB]',
+    titleColor: 'text-[#1597BB]',
+    textColor: 'text-[#8FD6E1]',
   },
 ])
-
-// const computedClass = computed((career: any) => {
-//   return ['after:bg-' + career.color]
-// })
-// function computedClass(career: any) {
-//   return [
-//     'after:absolute',
-//     'after:left-14',
-//     'after:top-3/4',
-//     'after:h-full',
-//     'after:w-1',
-//     'after:gray-500',
-//   ]
-// }
 </script>
 
 <template>
   <div class="relative mx-auto mt-10 grid max-w-container grid-cols-3 gap-x-5 max-lg:grid-cols-1">
-    <div class="col-start-1 row-start-1">
-      <div class="h-64 w-auto">
-        <img src="../statics/avatar.png" class="mx-auto h-64 w-auto object-cover" />
-      </div>
-    </div>
-    <div class="col-start-1 row-start-2 mt-5 lg:col-start-1 lg:row-start-2">
+    <div
+      class="col-start-1 row-span-3 row-start-1 mt-5 h-full"
+      data-aos="fade-up"
+      data-aos-once="true"
+      data-aos-duration="700"
+    >
       <div>
+        <div class="h-64 w-auto">
+          <img src="../statics/avatar.png" class="mx-auto h-64 w-auto object-cover" />
+        </div>
         <div class="text-2xl font-semibold tracking-wide">About Me :</div>
         <div class="mt-3">
           <p class="leading-5 tracking-wide">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus distinctio, voluptas
-            quo porro nesciunt quasi vitae officiis quod! Nisi numquam porro molestiae vero quos
-            eligendi illum inventore modi magni fugit.
+            Hello, I'm Yudis, a passionate Front-End Web Developer hailing from the vibrant city of
+            Depok, Indonesia. With a creative mind and a keen eye for design, I specialize in
+            crafting visually stunning and user-friendly websites that captivate and engage
+            audiences. I'm dedicated to continuous improvement and I'm still learning, always
+            seeking to expand my skills and knowledge in this ever-evolving field. When I'm not
+            immersed in the world of code, I enjoy Gaming, listening music, which provides me with
+            fresh perspectives and inspiration for my work.
           </p>
         </div>
+        <!-- <div class="mt-12 w-fit">
+          <button
+            class="relative flex items-center gap-3 rounded-md from-indigo-500 via-purple-500 to-pink-500 px-4 py-2 text-white before:absolute before:left-[-2px] before:top-[-2px] before:-z-10 before:h-[calc(100%+5px)] before:w-[calc(100%+5px)] before:animate-glowing before:rounded-md before:bg-gradient-to-r before:bg-[size:400%] before:opacity-0 before:blur-sm before:content-[''] after:absolute after:left-0 after:top-0 after:-z-10 after:h-full after:w-full after:rounded-md after:bg-[#352F44] hover:before:opacity-100"
+          >
+            <Download class="h-5 w-5 fill-white" />
+            <div>Download my Resume</div>
+          </button>
+        </div> -->
       </div>
     </div>
     <div
@@ -89,16 +94,20 @@ const careers = useState<
       <div
         v-for="(career, index) in careers"
         :key="index"
-        class="relative z-10 my-5 flex rounded-xl shadow-xl"
+        class="relative z-10 my-5 flex rounded-xl shadow-[0_30px_60px_-12px_rgba(0,0,0,0.3)]"
+        data-aos="fade-left"
+        data-aos-once="true"
+        data-aos-duration="700"
+        :data-aos-delay="index * 100"
         :class="index < careers.length - 1 ? [''] : ''"
       >
         <div
-          class="flex shrink basis-52 items-center justify-center rounded-l-xl p-5 font-semibold tracking-wide"
+          class="flex shrink-0 basis-52 items-center justify-center rounded-l-xl p-5 text-xl font-semibold tracking-wide"
           :class="[career.textColor, career.primaryColor]"
         >
           {{ career.year }}
         </div>
-        <div class="rounded-r-xl bg-white p-5">
+        <div class="rounded-r-xl bg-[#352F44] p-5">
           <div>
             <div class="text-xl font-semibold tracking-widest" :class="career.titleColor">
               {{ career.office }} | {{ career.location }}
@@ -113,149 +122,3 @@ const careers = useState<
     </div>
   </div>
 </template>
-
-<style lang="scss">
-.timeline {
-  display: flex;
-  flex-direction: column;
-  width: 50vw;
-  margin: 5% auto;
-
-  &__event {
-    background: #fff;
-    margin-bottom: 20px;
-    position: relative;
-    display: flex;
-    margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3),
-      0 -12px 36px -8px rgba(0, 0, 0, 0.025);
-
-    &__title {
-      font-size: 1.2rem;
-      line-height: 1.4;
-      text-transform: uppercase;
-
-      font-weight: 600;
-      color: #9251ac;
-      letter-spacing: 1.5px;
-    }
-    &__content {
-      padding: 20px;
-    }
-    &__date {
-      color: #f6a4ec;
-      font-size: 1.5rem;
-      font-weight: 600;
-      white-space: nowrap;
-    }
-    &__icon {
-      border-radius: 8px 0 0 8px;
-      background: #9251ac;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-basis: 40%;
-      font-size: 2rem;
-      color: #9251ac;
-      padding: 20px;
-
-      i {
-        position: absolute;
-        top: 50%;
-        left: -65px;
-        font-size: 2.5rem;
-        transform: translateY(-50%);
-      }
-    }
-    &__description {
-      flex-basis: 60%;
-    }
-
-    &:after {
-      content: '';
-      width: 2px;
-      height: 100%;
-      background: #9251ac;
-      position: absolute;
-      top: 52%;
-      // transform: translateY(-50%);
-      left: -3.5rem;
-      z-index: -1;
-    }
-
-    &:before {
-      content: '';
-      width: 5rem;
-      height: 5rem;
-      position: absolute;
-      background: #f6a4ec;
-      border-radius: 100%;
-      left: -6rem;
-      // right: 90%;
-      top: 50%;
-      transform: translateY(-50%);
-      border: 2px solid #9251ac;
-    }
-    &--type2 {
-      &:before {
-        background: #87bbfe;
-        border-color: #555ac0;
-      }
-      &:after {
-        background: #555ac0;
-      }
-      .timeline__event__date {
-        color: #87bbfe;
-      }
-
-      .timeline__event__icon {
-        background: #555ac0;
-        color: #555ac0;
-      }
-      .timeline__event__title {
-        color: #555ac0;
-      }
-      .timeline__event__title {
-      }
-    }
-
-    &--type3 {
-      &:before {
-        background: #aff1b6;
-        border-color: #24b47e;
-      }
-      &:after {
-        background: #24b47e;
-      }
-      .timeline__event__date {
-        color: #aff1b6;
-      }
-
-      .timeline__event__icon {
-        background: #24b47e;
-        color: #24b47e;
-      }
-      .timeline__event__title {
-        color: #24b47e;
-      }
-      .timeline__event__title {
-      }
-    }
-    &:last-child {
-      &:after {
-        content: none;
-      }
-    }
-  }
-}
-
-@media (max-width: 786px) {
-  .timeline__event {
-    flex-direction: column;
-  }
-  .timeline__event__icon {
-    border-radius: 4px 4px 0 0;
-  }
-}
-</style>

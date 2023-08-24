@@ -8,8 +8,12 @@
         <div class="text-4xl font-bold tracking-wide">Front End Developer</div>
         <div class="text-4xl font-semibold tracking-wide">Based in Indonesia</div>
       </div>
+
       <div class="mt-3 flex justify-center gap-3">
-        <div class="flex items-center rounded-full bg-orange-200 px-2 py-0.5 text-2xs">
+        <div class="input-wrapper text-center">
+          <span class="placeholder font-bold"></span>
+        </div>
+        <!-- <div class="flex items-center rounded-full bg-orange-200 px-2 py-0.5 text-2xs">
           #FrontEnd
         </div>
         <div class="flex items-center rounded-full bg-red-200 px-2 py-0.5 text-2xs">
@@ -17,7 +21,7 @@
         </div>
         <div class="flex items-center rounded-full bg-green-200 px-2 py-0.5 text-2xs">
           #Indonesia
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

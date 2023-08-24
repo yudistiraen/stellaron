@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   appConfig: {
     app: {
       name: 'stellaron',
-      version: '1.0.1',
+      version: '1.1.0',
     },
     head: {
       link: [

@@ -1,7 +1,45 @@
+@import './typed.scss';
+
 html {
     scroll-behavior: smooth
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #000000;
+    color:#ffffff;
+}
+
+.text-wrapper {
+    > .placeholder{
+        pointer-events: none;
+        @include typed(("Red": (color: #e53935),"Orange": (color: #f4511e),"Green": (color: #43a047)), 1, (caret-width: 3px, caret-color: currentColor));
+
+    }
+}
+
+.input-wrapper{
+    display: inline-block;
+    font-size: 125%;
+    width: 50%;
+    > input,
+    > .placeholder {
+        display: block;
+        appearance: none;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: none
+    }
+    > .placeholder {
+        pointer-events: none;
+        @include typed(("#FrontEnd": (color: #fa63f2),"#Javascript": (color: #2db9fa), "#Indonesia": (color: #fa2d2d)), 1, (caret-width: 3px, caret-color: currentColor));
+    }
+    > .input {
+        &:focus,
+        &:active {
+            .placeholder {
+                display: none;
+            }
+        }
+    }
 }

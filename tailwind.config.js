@@ -34,6 +34,7 @@ module.exports = {
         reveal: 'reveal 5s',
         slidein: 'slidein 5s',
         showup: 'showup 5s',
+        glowing: 'glowing 20s linear infinite',
       },
       transitionDuration: {
         4000: '4000ms',
@@ -43,6 +44,11 @@ module.exports = {
         tektur: ['"Tektur'],
       },
       keyframes: {
+        glowing: {
+          '0%': { 'background-position': '0 0' },
+          '50%': { 'background-position': '400% 0' },
+          '100%': { 'background-position': '0 0' },
+        },
         showup: {
           '0%': { opacity: 0 },
           '20%': { opacity: 1 },
