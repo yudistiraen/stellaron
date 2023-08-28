@@ -57,14 +57,16 @@ const careers = useState<
 <template>
   <div class="relative mx-auto mt-10 grid max-w-container grid-cols-3 gap-x-5 max-lg:grid-cols-1">
     <div
-      class="col-start-1 row-span-3 row-start-1 mt-5 h-full"
+      class="col-start-1 row-span-3 row-start-1 row-end-2 mt-5 h-full"
       data-aos="fade-up"
       data-aos-once="true"
       data-aos-duration="700"
     >
       <div>
-        <div class="h-64 w-auto">
-          <img src="../statics/avatar.png" class="mx-auto h-64 w-auto object-cover" />
+        <div class="w-full justify-center items-center flex">
+          <div class="h-64 w-64 overflow-hidden rounded-full">
+            <img src="../statics/avatar.png" class="mx-auto h-64 w-auto object-cover" />
+          </div>
         </div>
         <div class="text-2xl font-semibold tracking-wide">About Me :</div>
         <div class="mt-3">
@@ -94,7 +96,7 @@ const careers = useState<
       <div
         v-for="(career, index) in careers"
         :key="index"
-        class="relative z-10 my-5 flex rounded-xl shadow-[0_30px_60px_-12px_rgba(0,0,0,0.3)]"
+        class="relative z-10 my-5 flex flex-col rounded-xl shadow-[0_30px_60px_-12px_rgba(0,0,0,0.3)] md:flex-row"
         data-aos="fade-left"
         data-aos-once="true"
         data-aos-duration="700"
@@ -102,12 +104,12 @@ const careers = useState<
         :class="index < careers.length - 1 ? [''] : ''"
       >
         <div
-          class="flex shrink-0 basis-52 items-center justify-center rounded-l-xl p-5 text-xl font-semibold tracking-wide"
+          class="flex shrink-0 basis-52 items-center justify-center rounded-t-xl p-5 text-xl font-semibold tracking-wide md:rounded-l-xl md:rounded-r-none"
           :class="[career.textColor, career.primaryColor]"
         >
           {{ career.year }}
         </div>
-        <div class="rounded-r-xl bg-[#352F44] p-5">
+        <div class="grow rounded-b-xl bg-[#352F44] p-5 md:rounded-l-none md:rounded-r-xl">
           <div>
             <div class="text-xl font-semibold tracking-widest" :class="career.titleColor">
               {{ career.office }} | {{ career.location }}
